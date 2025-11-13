@@ -110,6 +110,8 @@ h3 {
     align-items: center;
 
     color: var(--Gray-600);
+
+    transition: color 0.2s ease-in-out;
 }
 
 .menu-link-light-mode:hover {
