@@ -1,0 +1,109 @@
+:root {
+    /* Base Colors */
+    --Color: rgb(255, 255, 255);
+
+    /* Gray Scale */
+    --Gray-50: rgb(249, 250, 251);
+    --Gray-100: rgb(243, 244, 246);
+    --Gray-200: rgb(229, 231, 235);
+    --Gray-300: rgb(209, 213, 219);
+    --Gray-400: rgb(156, 163, 175);
+    --Gray-500: rgb(107, 114, 128);
+    --Gray-600: rgb(75, 85, 99);
+    --Gray-700: rgb(55, 65, 81);
+    --Gray-800: rgb(31, 41, 55);
+    --Gray-900: rgb(17, 24, 39);
+    --Gray-950: rgb(3, 7, 18);
+
+    /* Gray Dark Scale */
+    --Gray-Dark-Default: rgb(3, 7, 18);
+    --Gray-Dark-50: rgb(17, 24, 39);
+    --Gray-Dark-100: rgb(31, 41, 55);
+    --Gray-Dark-200: rgb(55, 65, 81);
+    --Gray-Dark-300: rgb(75, 85, 99);
+    --Gray-Dark-400: rgb(107, 114, 128);
+    --Gray-Dark-500: rgb(156, 163, 175);
+    --Gray-Dark-600: rgb(209, 213, 219);
+    --Gray-Dark-700: rgb(229, 231, 235);
+    --Gray-Dark-800: rgb(243, 244, 246);
+    --Gray-Dark-900: rgb(249, 250, 251);
+    --Gray-Dark-950: rgba(255, 255, 255, 0);
+
+    /* Accent Colors */
+    --Emerald-500: rgb(16, 185, 129);
+
+    /* Neutral */
+    --Neutral-White: rgb(255, 255, 255);
+    --Gray-Default: rgb(255, 255, 255);
+
+    /* Opacity Variants */
+    --Gray-Default-50: rgba(255, 255, 255, 0.5);
+    --Gray-Dark-Default-50: rgba(3, 7, 18, 0.5);
+    --Gray-900-10: rgba(17, 24, 39, 0.1);
+    --Gray-Dark-900-10: rgba(249, 250, 251, 0.1);
+
+    /* Font Family */
+    --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+    /* Heading H1 */
+    --h1-desktop-size: 6rem;
+    --h1-desktop-height: 7.2rem;
+    --h1-desktop-spacing: -0.02em;
+    --h1-desktop-weight: 700;
+
+    --h1-tablet-size: 4.8rem;
+    --h1-tablet-height: 4.8rem;
+    --h1-tablet-spacing: -0.02em;
+    --h1-tablet-weight: 700;
+
+    --h1-mobile-size: 3.6rem;
+    --h1-mobile-height: 4.3rem;
+    --h1-mobile-spacing: normal;
+    --h1-mobile-weight: 600;
+
+    /* Heading H2 */
+    --h2-desktop-size: 3.6rem;
+    --h2-desktop-height: 4.3rem;
+    --h2-desktop-spacing: -0.02em;
+    --h2-desktop-weight: 600;
+
+    --h2-tablet-mobile-size: 1.8rem;
+    --h2-tablet-mobile-height: 2.8rem;
+    --h2-tablet-mobile-spacing: -0.02em;
+    --h2-tablet-mobile-weight: 600;
+
+    /* Heading H3 */
+    --h3-desktop-size: 3rem;
+    --h3-desktop-height: 3.6rem;
+    --h3-desktop-spacing: -0.02em;
+    --h3-desktop-weight: 600;
+
+    --h3-tablet-mobile-size: 2.4rem;
+    --h3-tablet-mobile-height: 3.2rem;
+    --h3-tablet-mobile-spacing: -0.02em;
+    --h3-tablet-mobile-weight: 600;
+
+    /* Subtitle */
+    --subtitle-desktop-size: 2rem;
+    --subtitle-desktop-height: 2.8rem;
+    --subtitle-desktop-weight: 400;
+
+    --subtitle-tablet-mobile-size: 1.8rem;
+    --subtitle-tablet-mobile-height: 2.8rem;
+    --subtitle-tablet-mobile-weight: 400;
+
+    /* Body1 */
+    --body1-size: 1.8rem;
+    --body1-height: 2.8rem;
+    --body1-weight: 400;
+
+    /* Body2 */
+    --body2-size: 1.6rem;
+    --body2-height: 2.4rem;
+    --body2-weight: 400;
+
+    /* Body3 */
+    --body3-size: 1.4rem;
+    --body3-height: 2rem;
+    --body3-weight: 400;
+}
