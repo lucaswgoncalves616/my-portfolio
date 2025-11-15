@@ -40,7 +40,7 @@ header {
 
 /* --------------- hero ---------------- */
 
-.hero {
+.page-content {
     width: 100%;
     padding: 96px 80px;
 }
@@ -141,7 +141,6 @@ header {
 
 .about {
     background: var(--Gray-50, #F9FAFB);
-    padding: 96px 80px;
 }
 
 .about-container {
@@ -198,4 +197,113 @@ header {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+}
+
+.skills-container {
+    display: flex;
+    padding: 0 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.skills-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.skills-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.skill > img {
+    width: 64px;
+    height: 64px;
+}
+
+.projects {
+    background: var(--Gray-50, #F9FAFB);
+}
+
+.projects-container {
+    display: flex;
+    padding: 0 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.projects-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.project {
+    display: flex;
+    width: 1152px;
+
+    border-radius: 12px;
+    background: var(--Gray-Default, #FFF);
+
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.07), 0 2px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.project:hover {
+    box-shadow: 0 16px 12px 0 rgba(0, 0, 0, 0.07), 0 8px 8px 0 rgba(0, 0, 0, 0.06);
+}
+
+.project-img {
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px 0 0 12px;
+    border-right: 1px solid var(--Gray-100, #F3F4F6);
+    background: var(--Gray-50, #F9FAFB);
+}
+
+.project-img img {
+    border-radius: 12px;
+
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.10), 0 10px 8px 0 rgba(0, 0, 0, 0.04);
+}
+
+.project-content {
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+
+    border-radius: 12px 0 0 12px;
+}
+
+.project-content .tags {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.project-content .links a {
+    padding: 6px;
 }
