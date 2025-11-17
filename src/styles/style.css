@@ -284,7 +284,7 @@ header {
 
 .project {
     display: flex;
-    width: 1152px;
+    width: 115rem;
 
     border-radius: 12px;
     background: var(--Gray-Default, #FFF);
@@ -302,6 +302,7 @@ header {
     padding: 48px;
     justify-content: center;
     align-items: center;
+    flex: 1 0 0;
 
     border-radius: 12px 0 0 12px;
     border-right: 1px solid var(--Gray-100, #F3F4F6);
@@ -320,6 +321,7 @@ header {
     flex-direction: column;
     align-items: start;
     gap: 24px;
+    flex: 1 0 0;
 
     border-radius: 12px 0 0 12px;
 }
@@ -376,4 +378,15 @@ header {
     justify-content: center;
     align-items: center;
     gap: 16px;
+}
+
+@media (max-width: 1200px) {
+    .project {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .project-img {
+        padding: calc(1vw + 22px);
+    }
 }
