@@ -15,8 +15,8 @@ header {
 }
 
 .header-container {
-    /*max-width: 128rem;*/
-    /*margin: 0 auto;*/
+    width: 128rem;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,10 +46,20 @@ header {
 
 /* --------------- hero ---------------- */
 
+
+
 .page-content {
+    padding: 96px 0;
+}
+
+.page-content2 {
     max-width: 128rem;
     margin: 0 auto;
-    padding: 96px 0;
+    padding: 96px 0
+}
+
+.page-content-bg {
+    background-color: var(--Gray-50);
 }
 
 .hero-container {
@@ -153,10 +163,6 @@ header {
         box-shadow: 30px 30px 5px var(--Gray-200);
         transform: translateX(-38px) translateY(-38px);
     }
-}
-
-.about {
-    background: var(--Gray-50, #F9FAFB);
 }
 
 .about-container {
