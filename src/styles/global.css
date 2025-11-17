@@ -44,6 +44,7 @@ h3 {
 }
 
 .subtitle {
+    color: var(--Gray-600);
     font-family: var(--font-family);
     font-size: var(--subtitle-desktop-size);
     line-height: var(--subtitle-desktop-height);
@@ -58,6 +59,7 @@ h3 {
 }
 
 .body2 {
+    color: var(--Gray-600);
     font-family: var(--font-family);
     font-size: var(--body2-size);
     line-height: var(--body2-height);
