@@ -185,6 +185,8 @@ header {
     display: flex;
     min-width: 444px;
     flex: 1 0 0;
+    justify-content: center;
+    order: 2;
 }
 
 .about-img-container {
@@ -289,12 +291,13 @@ header {
     border-radius: 12px;
     background: var(--Gray-Default, #FFF);
 
-    transition: box-shadow 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.07), 0 2px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .project:hover {
     box-shadow: 0 16px 12px 0 rgba(0, 0, 0, 0.07), 0 8px 8px 0 rgba(0, 0, 0, 0.06);
+    scale: 1.03;
 }
 
 .project-img {
