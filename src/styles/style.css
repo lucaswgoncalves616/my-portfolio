@@ -407,6 +407,15 @@ header {
     flex-wrap: wrap;
 }
 
+.copy {
+    transition: all 0.2s ease-in-out;
+}
+
+.copy:disabled {
+    background-color: var(--Gray-300);
+    cursor: not-allowed;
+}
+
 .contact-links {
     display: flex;
     flex-direction: column;
