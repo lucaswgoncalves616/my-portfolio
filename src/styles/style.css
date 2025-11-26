@@ -412,7 +412,6 @@ header {
 }
 
 .copy:disabled {
-    background-color: var(--Gray-300);
     cursor: not-allowed;
 }
 
